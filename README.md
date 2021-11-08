@@ -18,8 +18,11 @@ Clone this repository by using the comamnd lines below
     -data - Contains the dao of for sql statement,ItunesItemDatabase db,remote api and ItunesRepository
    - di -  Contains the app dependency of the app such as retrofit, room, okhttp, Interceptor and dao  
    - other- Constains the DATABASE_NAME and ITUNES_TABLE_NAME
+   
    - UseCase - Constain the business logic of the app coming from the repository
+   
     - Viewmodel - Contains the business logic and observing what is happening in the usecase via resource wrapper class
+   
     - Utils - constains the resource wrapper class and enums
      - View - It consists of the UI Code(Activity) XML and subscribing the observables in the viewmodel that it exposes to update the UI based on the
      business logic in the viemodel
@@ -36,6 +39,7 @@ why did I choose that particular one, any benefits, and disadvantages of using i
    - Hilt Depedency Injection
    - Room
    - Retrofit
+   - 
    -Glide- to display images and also to keep taking care of caching and keeping a low memory impact when doing image manipulations.
    - Swipe Refresher
    
