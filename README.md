@@ -13,7 +13,8 @@ Clone this repository by using the comamnd lines below
   - import it via Android Studio
   
   Project Architecture that I used is called MVVM (Model View Viewmodel)
-    -Model-  The source of data in our app to be used by the remote and local to process the data
+  
+    -Model- The source of data in our app to be used by the remote and local to process the data
     -data - Contains the dao of for sql statement,ItunesItemDatabase db,remote api and ItunesRepository
    - di -  Contains the app dependency of the app such as retrofit, room, okhttp, Interceptor and dao  
    - other- Constains the DATABASE_NAME and ITUNES_TABLE_NAME
